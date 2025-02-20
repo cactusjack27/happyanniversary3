@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
     let targetTime = new Date(now.getFullYear(), now.getMonth(), targetDay, 0, 0, 0, 0);
     if (now >= targetTime) {
         targetTime = new Date(now.getFullYear(), now.getMonth() + 1, targetDay, 0, 0, 0, 0);
-        if(now.getDate() > targetDay){
+        if(now.getDate() >= targetDay){
             months = months+1;
         }
     }
