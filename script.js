@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
     function updateCountdown(){
     let now = new Date();
-    let months = now.getMonth()+12+3;
+    let months = now.getMonth()+12+4;
     let targetDay = 21;
     let alertShown = false;
     let targetTime = new Date(now.getFullYear(), now.getMonth(), targetDay, 0, 0, 0, 0);
