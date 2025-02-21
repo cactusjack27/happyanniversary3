@@ -11,6 +11,7 @@ header {
     color: white;
 }
 .photo-grid img {
+    position: relative;
     width: 200px;
     height: auto;
     margin: 10px;
@@ -33,4 +34,15 @@ header {
     font-weight: bold;
     color: #ff4d79;
     text-shadow: 0 0 10px rgba(255, 77, 121, 0.8);
+}
+.slide{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width: 100%;
+    opacity: 0%;
+    transition: opacity 1.5s ease-in-out;
+}
+.show{
+    opacity: 1;
 }
